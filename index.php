@@ -13,6 +13,20 @@ switch ($url) {
 		$ctl = new PostController();
 		$ctl->index();
 		break;
+	case "posts/create":
+		$ctl = new PostController();
+		$ctl->create();
+		break;
+
+	case "posts/store":
+		$ctl = new PostController();
+		$ctl->store();
+		break;
+
+	case "posts/":
+		$ctl = new PostController();
+		$ctl->index();
+		break;
 
 	default:
 		include_once 'app/views/layouts/notfound.php';
