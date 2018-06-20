@@ -7,6 +7,7 @@ require_once 'app/views/layouts/inc/header.php';
 			<thead>
 				<tr>
 					<th>STT</th>
+					<th>Hinh anh</th>
 					<th>Tieu de bai viet</th>
 					<th>Noi dung bai viet</th>
 					<th>Tac gia</th>
@@ -17,6 +18,7 @@ require_once 'app/views/layouts/inc/header.php';
 				<?php foreach ($posts as $key => $post): ?>
 					<tr>
 						<td><?= $key+1?></td>
+						<td><a href=""><img width="120" src="../<?= $post->image ?>" alt=""></a></td>
 						<td><?= $post->title ?></td>
 						<td><?= $post->description ?></td>
 						<td><?= $post->author ?></td>

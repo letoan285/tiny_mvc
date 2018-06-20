@@ -1,5 +1,7 @@
 <?php 
-require_once 'app/controllers/PostController.php';
+require_once 'vendor/autoload.php';
+
+use App\Controllers\PostController;
 
 $url = isset($_GET['url']) ? $_GET['url'] : '/';
 

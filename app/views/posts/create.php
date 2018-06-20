@@ -4,7 +4,7 @@
  <div class="container">
  	<div class="col-md-8 col-md-offset-2">
 		<h1>Them moi Bai viet</h1>
-		<form action="./store" method="POST">
+		<form action="./store" method="POST" enctype="multipart/form-data">
 			<div class="form-group">
 				<label for="">Ten bai viet</label>
 				<input type="text" name="title" class="form-control" placeholder="Ten bai viet">

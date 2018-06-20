@@ -1,8 +1,9 @@
 <?php 
 
-/**
- * summary
- */
+namespace App\Models;
+
+use PDO;
+
 class BaseModel
 {
     public $connect;
